@@ -104,7 +104,7 @@ Write a query that listens to changes in the `messages` table.
 
 HINT: the query will return a cursor, not an array
 
-HINT: the objects return by the cursor have a `new_val` and an `old_val` property
+HINT: the objects returned by the cursor have a `new_val` and an `old_val` property
 
 [http://rethinkdb.com/docs/changefeeds/javascript/](http://rethinkdb.com/docs/changefeeds/javascript/)
 
