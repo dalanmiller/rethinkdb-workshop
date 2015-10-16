@@ -13,7 +13,11 @@ brew install rethinkdb
 brew install node
 ```
 
-After installing RethinkDB and Node.js, go the root directory of the repo and install all dependencies.
+You then want to actually _run_ RethinkDB. 
+
+You can have RethinkDB start up with your system boot by using the `launch ctl...` command you see when running `brew info rethinkdb`. Or you can run it just for this instance by opening a new terminal window and just running `rethinkdb`.  In that directory RethinkDB will create a new folder `rethinkdb_data` where it will store data. 
+
+After installing RethinkDB and Node.js, go to the root directory of the repo and install all app dependencies.
 
 ```
 npm install
@@ -31,6 +35,8 @@ node server
 # Instructions
 
 **To get started, take a look at the instructions in the `server/index.js` file**
+
+You will be working solely by writing code in the `server/index.js` file. 
 
 After starting node and creating the necessary tables, you can now start writing ReQL queries to complete the excercise.
 
